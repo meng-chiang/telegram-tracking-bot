@@ -1,0 +1,20 @@
+# Environment variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Database
+data.db
+data.db-shm
+data.db-wal
+
+# Logs
+*.log
+
+# OS
+.DS_Store

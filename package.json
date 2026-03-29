@@ -1,0 +1,28 @@
+{
+  "name": "telegram-tracking-bot",
+  "version": "1.0.0",
+  "description": "每日項目追蹤 Telegram Bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "@google/generative-ai": "^0.24.0",
+    "openai": "^4.85.2",
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.13.5",
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
